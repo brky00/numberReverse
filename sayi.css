@@ -1,0 +1,89 @@
+.sayiContainer{
+    margin-top: 250px;
+    }
+    
+    header h1{
+        color: #fff;
+        font-size: 3rem;
+    }
+    body{
+        background: linear-gradient(to right,#360033, #0b8793);
+        font-family: sans-serif;
+    }
+    .sayiLabel{
+        color: #fff;
+        font-size: 2rem;
+    }
+    
+    .sayiListeUl li{
+        
+        font-size: 2rem;
+        list-style: none;
+        width: 100%;
+        padding: 0rem 0.5rem;
+    }
+    .trash-btn{
+        background-color:red ;
+        color:#fff;
+        border: none;
+        padding: 6px ;
+        cursor: pointer;
+        font-size: 25px;
+      
+    }
+    .sayilarLiDiv{
+        display: flex;
+        margin: 0.5rem;
+        background-color: #fff;
+        color:#000;
+        font-size: 1.5rem;
+        justify-content:center ;
+        align-items: center;
+       
+    }
+    
+    .sayiInput{
+       
+        font-size: 25px;
+        border: none;
+        background-color: white;
+        outline: none;
+    }
+    .fa-trash{
+        font-size: 1.5rem;
+        pointer-events: none;
+    }
+    
+    .fall{
+        transition: 0.8s all ease;
+        transform: translateY(8rem) rotateZ(360deg);
+        opacity:0
+    }
+    
+    
+    @media (max-width: 700px) {
+    
+        .sayiInput{
+            width: 100%;
+            font-size: 15px;
+        }
+        header h1{
+            
+            font-size: 18px;
+        }
+        .sayiLabel{
+            color: #fff;
+            font-size: 1rem;
+        }
+        
+        .gonderBtn{
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 12px
+        }
+        .sayilarLiDiv Li{
+            font-size: 20px;
+        }
+      
+    }
+    
